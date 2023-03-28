@@ -7,3 +7,6 @@ Result: though the navigation from placeholder to properties file works for usag
 The properties from application.properties are shown as used always.
 
 https://youtrack.jetbrains.com/issue/IDEA-155914
+
+upd: in 2023.1 navigation doesn't work from `@Value`annotation in B-module to the property definition in the
+application.properties file in A-module
