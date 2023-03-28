@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component("bComponent1")
 public class BComponent1 {
 
-    @Value("${my.props.p2}") // navigation doesn't work
+    @Value("${my.props.p2}") // navigation doesn't work (IDEA 2023.1)
     String id;
     @Value("${extra.props.p2}") // navigation works
     String id2;
