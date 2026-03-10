@@ -9,8 +9,10 @@ public class SomeBean {
     String id;
     @Value("${extra.props.p3}")
     String id2;
+    @Value("${imported.props.prop1:default}")
+    String prop;
 
     public String getIds() {
-        return id+" "+id2;
+        return id+", "+id2+", "+prop;
     }
 }
