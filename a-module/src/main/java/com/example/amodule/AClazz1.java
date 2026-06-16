@@ -3,7 +3,7 @@ package com.example.amodule;
 import org.springframework.beans.factory.annotation.Value;
 
 
-public class SomeBean {
+public class AClazz1 {
 
     @Value("${prop.for.bean}")
     String id;
