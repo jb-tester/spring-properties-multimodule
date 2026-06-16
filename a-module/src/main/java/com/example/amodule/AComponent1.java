@@ -17,7 +17,7 @@ public class AComponent1 {
     String id2;
     @Value("${prop.for.component}")
     String id3;
-    @Value("${my.b.props.}")
+    @Value("${my.b.props.prop1}")
     String id4;
 
     public String getId() {

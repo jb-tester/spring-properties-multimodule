@@ -1,0 +1,4 @@
+my:
+  test:
+    props:
+      prop1: confprop defined in A module Tests set in A Tests application.* used in same (A) module test
