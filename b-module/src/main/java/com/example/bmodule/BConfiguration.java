@@ -1,5 +1,6 @@
-package com.example.amodule;
+package com.example.bmodule;
 
+import com.example.bmodule.BClazz2;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

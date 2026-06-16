@@ -1,4 +1,4 @@
-package com.example.amodule;
+package com.example.bmodule;
 
 
 import org.springframework.beans.factory.annotation.Value;
