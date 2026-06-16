@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-@Import({TestConfigurationProperties.class})
+@Import(TestConfiguration.class)
 class AModuleApplicationTests {
 
     @Value("${my.test.props.prop1}")
