@@ -1,7 +1,6 @@
 package com.example.amodule;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 /**
  * *
@@ -9,9 +8,8 @@ import org.springframework.stereotype.Component;
  * <p>Project: spring-properties-multimodule</p>
  * *
  */
-@ConfigurationProperties(prefix = "my.props")
-@Component
-public class MyProps {
+@ConfigurationProperties(prefix = "my.a.props")
+public class MyAProps {
    String p1;
    String p2;
    String p3;

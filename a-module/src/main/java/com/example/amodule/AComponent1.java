@@ -11,12 +11,14 @@ import org.springframework.stereotype.Component;
  */
 @Component("aComponent1")
 public class AComponent1 {
-    @Value("${my.props.p1}")
+    @Value("${my.a.props.p1}")
     String id;
     @Value("${extra.props.p1}")
     String id2;
     @Value("${prop.for.component}")
     String id3;
+    @Value("${my.b.props.}")
+    String id4;
 
     public String getId() {
         return id;
@@ -28,5 +30,9 @@ public class AComponent1 {
 
     public String getId3() {
         return id3;
+    }
+
+    public String getId4() {
+        return id4;
     }
 }
